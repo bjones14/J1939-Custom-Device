@@ -15,6 +15,8 @@ This addon implements the J1939-21 specification (namely the transport protocols
 
 Help is included in most System Explorer sections.
 
+If building from source in a version of LabVIEW > 2019, then be sure to update the J1939 Addon.lvproj.config and J1939 Addon SysDef API.lvproj.config XML files to point to the correct version of the dependent VeriStand .NET assemblies (7.0.0.0 for VS2019, 8.0.0.0 for VS2020, 9.0.0.0 for VS2021) by editing the newVersion tag for each dependent assembly.
+
 ### Built Availability ###
 
 https://github.com/NIVeriStandAdd-Ons/J1939-Custom-Device/releases
